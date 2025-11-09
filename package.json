@@ -1,0 +1,58 @@
+{
+  "name": "create-shadcn-app",
+  "displayName": "Create ShadCN App",
+  "version": "1.0.0",
+  "description": "A modern CLI tool to scaffold a React app with Tailwind CSS v4, ShadCN UI, TypeScript, and SWC",
+  "type": "module",
+  "bin": {
+    "create-shadcn-app": "./index.mjs"
+  },
+  "scripts": {
+    "test": "node index.mjs",
+    "prepublishOnly": "echo 'Ready to publish'"
+  },
+  "keywords": [
+    "create-app",
+    "shadcn",
+    "shadcn-ui",
+    "react",
+    "vite",
+    "typescript",
+    "tailwindcss",
+    "tailwind-v4",
+    "swc",
+    "cli",
+    "scaffold",
+    "generator",
+    "boilerplate",
+    "ui",
+    "components"
+  ],
+  "author": {
+    "name": "Perret William",
+    "email": "william.perret@hotmail.com",
+    "url": "https://william-perret.fr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamperret/create-shadcn-app"
+  },
+  "bugs": {
+    "url": "https://github.com/williamperret/create-shadcn-app/issues"
+  },
+  "homepage": "https://github.com/williamperret/create-shadcn-app#readme",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "execa": "^9.6.0",
+    "prompts": "^2.4.2"
+  },
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ]
+}
